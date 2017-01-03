@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Magento Addons Team
+ * @copyright Copyright (c) 2015 Magento Addons (https://www.magentoaddons.com)
+ * @package Mageaddons_Base
+ */	
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="Mageaddons_Base::base" title="Ruby Softs" module="Mageaddons_Base" sortOrder="120" resource="Mageaddons_Base::base"/>
+		<add id="Mageaddons_Menus::headingstore" title="Our Extension" parent="Mageaddons_Base::base" sortOrder="10000" module="Mageaddons_Base" resource="Mageaddons_Base::base_item"/>
+        <add id="Mageaddons_Base::base_item" title="Extension Store" parent="Mageaddons_Menus::headingstore" module="Mageaddons_Base" sortOrder="10000" action="base/base" resource="Mageaddons_Base::base_item"/>
+    </menu>
+</config>

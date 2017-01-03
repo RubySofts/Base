@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mageaddons.com. All rights reserved.
+ *
+ * @author Mageaddons Team <contact@Mageaddons.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <base>
+            <general>
+                <enabled>1</enabled>
+            </general>
+        </base>
+    </default>
+</config>

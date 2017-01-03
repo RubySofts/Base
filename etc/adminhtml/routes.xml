@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Magento Addons Team
+ * @copyright Copyright (c) 2015 Magento Addons (https://www.magentoaddons.com)
+ * @package Mageaddons_Base
+ */	
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="base" frontName="base">
+            <module name="Mageaddons_Base" />
+        </route>
+    </router>
+</config>

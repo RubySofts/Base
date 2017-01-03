@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @author Magento Addons Team
+ * @copyright Copyright (c) 2015 Magento Addons (https://www.magentoaddons.com)
+ * @package Mageaddons_Base
+ */	
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+		<css src="Mageaddons_Base::css/bootstrap.min.css" />
+		<script src="jquery.js"/>
+		<script src="Mageaddons_Base::js/bootstrap.min.js"/>
+	</head>
+	<body>
+
+	</body>
+</page>
