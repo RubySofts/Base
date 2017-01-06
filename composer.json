@@ -24,7 +24,7 @@
         "map": [
             [
                 "*",
-                "Mageaddons/Base": ""
+                "Mageaddons/Base"
             ]
         ]
     }
