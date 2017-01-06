@@ -2,6 +2,8 @@
     "name": "mageaddons/base",
     "description": "dev Module Base for Magento 2",
     "require": {
+         "php": "~5.6.0|7.0.2|~7.0.6",
+        "magento/framework": "100.1.*"
     },
     "type": "magento2-module",
     "version": "101.0.1",
@@ -17,7 +19,7 @@
             "": "app/code/"
         },
         "files": [
-            "app/etc/NonComposerComponentRegistration.php"
+            "registration.php"
         ],
         "psr-4": {
            "Mageaddons\\Base\\": "app/code/Mageaddons/Base"
