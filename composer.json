@@ -1,5 +1,5 @@
 {
-    "name": "rubysofts/base",
+    "name": "mageaddons/base",
     "description": "Module Base for Magento 2",
     "require": {
         "php": "~5.6.0|7.0.2|~7.0.6",
@@ -19,5 +19,13 @@
            "Mageaddons\\Base\\": ""
         }
     },
-    "homepage": "http://www.rubysofts.com/"
+    "homepage": "http://www.rubysofts.com/",
+	"extra": {
+        "map": [
+            [
+                "*",
+                "Mageaddons/Base"
+            ]
+        ]
+    }
 }
