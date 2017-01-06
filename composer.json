@@ -13,10 +13,10 @@
     ],
     "autoload": {
         "files": [
-            "app/etc/NonComposerComponentRegistration.php"
+             "registration.php"
         ],
         "psr-4": {
-           "Mageaddons\\Base\\": ""
+           "Mageaddons\\Base\\": "app/code/Mageaddons/Base"
         }
     },
     "homepage": "http://www.rubysofts.com/",
