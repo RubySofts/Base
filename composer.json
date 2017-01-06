@@ -11,13 +11,19 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
+     "config": {
+        "use-include-path": true
+    },
     "autoload": {
+        "psr-0": {
+            "": "app/code/"
+        },
         "files": [
-             "registration.php"
+            "app/etc/NonComposerComponentRegistration.php"
         ],
         "psr-4": {
            "Mageaddons\\Base\\": "app/code/Mageaddons/Base"
-        }
+        }        
     },
     "homepage": "http://www.rubysofts.com/",
     "extra": {
