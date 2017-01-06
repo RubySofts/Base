@@ -12,8 +12,11 @@
         "files": [
             "registration.php"
         ],
+		"psr-0": {
+            "": "app/code/"
+        },
         "psr-4": {
-           "Mageaddons\\Base\\": ""
+           "Mageaddons\\Base\\": "app/code/"
         }
     },
     "homepage": "http://www.rubysofts.com/",
